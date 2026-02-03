@@ -1,0 +1,32 @@
+[
+  {
+    "id": "code-binary-search-tree",
+    "category": "coding",
+    "prompt": "Write a clean, complete Python implementation of an AVL Self-Balancing Binary Search Tree with insert, delete, rebalance, and level-order traversal methods."
+  },
+  {
+    "id": "json-schema-extraction",
+    "category": "json_schema",
+    "prompt": "Extract the structured profile information from this text into strict valid JSON with fields: full_name, age, current_role, skills (list), years_of_experience (int), education (list of {degree, university, graduation_year}):\n'Alex Chen is a 29-year-old Principal Staff Engineer at Datadog with 8 years of distributed systems experience. He graduated from MIT with a BS in Computer Science in 2017 and Stanford with an MS in AI in 2019. His core stack includes Rust, Go, Kubernetes, Raft, and PyTorch.'"
+  },
+  {
+    "id": "reasoning-math-proof",
+    "category": "reasoning",
+    "prompt": "Prove step-by-step why the square root of 2 is irrational using proof by contradiction. Clearly lay out each lemma and arithmetic step."
+  },
+  {
+    "id": "sql-query-optimization",
+    "category": "database",
+    "prompt": "Given a PostgreSQL schema with `orders(id, customer_id, created_at, total_amount)` and `order_items(id, order_id, product_id, quantity, unit_price)`, write an optimized SQL query using window functions and CTEs to compute the top 5 highest-spending customers for each calendar month in 2025."
+  },
+  {
+    "id": "system-design-rate-limiter",
+    "category": "architecture",
+    "prompt": "Design a globally distributed Token Bucket Rate Limiter supporting 1,000,000 requests per second with sub-millisecond latency. Describe the Redis cluster topology, Lua script atomicity, race condition handling, and sliding window fallbacks."
+  },
+  {
+    "id": "code-async-thread-pool",
+    "category": "coding",
+    "prompt": "Implement a production-ready asynchronous worker pool in Python using `asyncio.Queue` and bounded workers that supports task cancellation, timeout handling, exponential backoff retries, and clean graceful shutdown."
+  }
+]
